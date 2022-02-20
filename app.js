@@ -11,7 +11,7 @@ const con = mongoose.connection;
 con.on('open', () =>{
     console.log('connected successfully...')
 })
-
+app.use(express.json())
 app.listen(9000, () => {
     console.log("Server Started");
 })
