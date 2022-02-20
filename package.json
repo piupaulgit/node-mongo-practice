@@ -1,0 +1,29 @@
+{
+  "name": "node-mongo-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start" : "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piupaulgit/node-mongo-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/piupaulgit/node-mongo-practice/issues"
+  },
+  "homepage": "https://github.com/piupaulgit/node-mongo-practice#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "mongodb": "^4.4.0",
+    "mongoose": "^6.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
